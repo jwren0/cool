@@ -3,7 +3,7 @@ An assortment of utilities in C header files.
 
 Inspired by:
 - [stb](https://github.com/nothings/stb)
-- [tsoding](https://github.com/tsoding) (projects such as nobuild, and nn.h)
+- [tsoding](https://github.com/tsoding) (projects such as nobuild and nn.h)
 
 The source code and documentation is stored within the
 header files in [src](/src).

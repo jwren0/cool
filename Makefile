@@ -23,7 +23,7 @@ run: build
 	done
 
 clean:
-	@rm $(OBJ_FILES)
+	@rm -rf $(OBJ_FILES)
 
 
 ## Developer targets ##

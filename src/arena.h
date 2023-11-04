@@ -178,6 +178,9 @@ uintptr_t *Arena_alloc(Arena *arena, uintptr_t size) {
     uintptr_t *new_region;
     Arena *new_arena;
 
+    // If size is 0, do nothing
+    if (size == 0) return NULL;
+
     // Switch size to accomodate bytes
     size = (size >> 2) + 1;
 

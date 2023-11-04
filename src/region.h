@@ -297,7 +297,7 @@
         }                                                       \
         puts("");                                               \
     } else {                                                    \
-        puts("Buf is blank\n");                                 \
+        puts("Buf is blank");                                   \
     }                                                           \
 }
 

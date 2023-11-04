@@ -36,6 +36,9 @@ int main(void) {
         }
     }
 
+    // Ensure null termination
+    Region_push(region, '\0');
+
     // Display the region again, after leaving a gap
     puts("");
     Region_dump(region);

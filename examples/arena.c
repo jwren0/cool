@@ -17,8 +17,8 @@ int main(void) {
     // Initialize an arena
     Arena_init(&arena);
 
-    // Use the memory
-    mem0 = (char *) Arena_alloc(&arena, strlen(msg0));
+    // Use the memory (reserving an extra byte for null)
+    mem0 = (char *) Arena_alloc(&arena, strlen(msg0) + 1);
     for (size_t i = 0; i < strlen(msg0); i++) {
         mem0[i] = msg0[i];
     }
